@@ -1,0 +1,71 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  body {
+    background:url('https://th.bing.com/th/id/R.cc50410b327ed610f3a29a234b1d0aa7?rik=b4gS%2brPDZXHOKA&riu=http%3a%2f%2fwww.interni.net.cn%2fwp-content%2fuploads%2f2016%2f05%2f%E3%80%8A%E5%B9%B8%E7%A6%8F%E3%80%8BHappiness-2011%EF%BC%881%EF%BC%89.jpg&ehk=c082vk6BhG7Fp0vNfetMWrhzvAxsZQ%2b6glMrcGo95a0%3d&risl=&pid=ImgRaw&r=0');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+    width:100%;
+  }
+  .square{
+    height:120px;
+    width:120px;
+    background:#7a6af0;
+    background-image: linear-gradient(to top right,lightblue,darkblue);
+    text-align:center;
+    display: block;
+    margin-left: 20px;
+    margin-top:250px;
+    border-radius: 20px;
+    float:left;
+    box-shadow: 10px 10px 5px #100e77;
+    
+  }
+  .squ{
+    text-align:center;
+    float:left;
+    color:white;
+    display: block;
+    margin-left: 30px;
+    margin-top:250px;
+    border-radius: 20px;
+     font-size: 65px;
+    text-shadow: 2px 2px #2013d8;
+  
+     
+  }
+  
+     
+  .sql{
+  
+  display:flex;
+    justify-content: center;
+  
+  }
+  #sq1{
+    font-size: 60px;
+    padding-top:10px;
+     color:white;
+    
+  
+  }
+  #sq2{
+    font-size: 60px;
+      padding-top:10px;
+    color:white;
+  }
+  #sq3{
+    font-size: 60px;
+      padding-top:10px;
+  color:white;
+  }
+  #sq4{
+    font-size: 60px;
+    text-align:center;
+      padding-top:10px;
+  color:white;
+    
+  }
+  
