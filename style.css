@@ -1,3 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
 html, body {
     height: 100%;
     width: 100%;
@@ -8,64 +16,50 @@ html, body {
     background-size: cover;
     height:100%;
     width:100%;
+    position: relative;
+      
   }
-  .square{
-    height:120px;
-    width:120px;
-    background:#7a6af0;
-    background-image: linear-gradient(to top right,lightblue,darkblue);
-    text-align:center;
-    display: block;
-    margin-left: 20px;
-    margin-top:250px;
-    border-radius: 20px;
-    float:left;
-    box-shadow: 10px 10px 5px #100e77;
-    
-  }
-  .squ{
-    text-align:center;
-    float:left;
-    color:white;
-    display: block;
-    margin-left: 30px;
-    margin-top:250px;
-    border-radius: 20px;
-     font-size: 65px;
-    text-shadow: 2px 2px #2013d8;
-  
-     
-  }
-  
-     
   .sql{
-  
-  display:flex;
-    justify-content: center;
-  
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top:40%;
+    left: 450px;
+   
   }
-  #sq1{
-    font-size: 60px;
-    padding-top:10px;
-     color:white;
+  .sql div{
+    height: 100px;
+    width: 100px;
+    border: 1px solid white;
+    margin: 20px;
+    border-radius: 15px;
+    color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  text-shadow: 2px 2px #2013d8;
+  box-shadow: 10px 10px 5px #100e77;
+  background-image: linear-gradient(to top right,lightblue,darkblue);
+}
+@media (max-width:477px){
+  .sql div{
+    height: 70px;
+    width: 70px;
+    font-size: 30px;
+    margin: 10px;
+  }
+  .sql{
     
-  
+    left: 10px;
+   
+    }
   }
-  #sq2{
-    font-size: 60px;
-      padding-top:10px;
-    color:white;
+  @media (max-width:799px){
+    .sql{
+      top:30%;
+      left: 100px;
+     
+      }
   }
-  #sq3{
-    font-size: 60px;
-      padding-top:10px;
-  color:white;
-  }
-  #sq4{
-    font-size: 60px;
-    text-align:center;
-      padding-top:10px;
-  color:white;
-    
-  }
-  
+
